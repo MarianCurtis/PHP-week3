@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../CSS/Practice"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PHP"
+	}
+}
