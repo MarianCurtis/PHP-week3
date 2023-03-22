@@ -1,0 +1,125 @@
+/* set default styles for body, header, and main */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* style the navigation menu */
+nav {
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* make the burger menu visible on smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  nav.active ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    padding: 10px;
+  }
+}
+
+/* style the form */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* style the sections */
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}

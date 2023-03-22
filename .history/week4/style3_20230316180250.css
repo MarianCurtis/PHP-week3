@@ -1,0 +1,16 @@
+.mainHeader{
+    height: 100vh;
+    min-height: 40em;
+    background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .navbar
+  #about img {
+    border-radius: 50%;
+  }
